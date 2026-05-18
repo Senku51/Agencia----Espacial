@@ -1,11 +1,10 @@
-package repositorio;
+package Repositorio;
 
 /**
  * @author Manuel Jesus Jiménez Pérez
  * @since 2026/05/13
  * @version 2026/05/13
  */
-import Entidades.Satelite;
 import Entidades.Telemetria;
 import jakarta.persistence.*;
 import java.util.List;
