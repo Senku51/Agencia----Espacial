@@ -7,7 +7,7 @@ package Servicios;
  */
 import Entidades.Satelite;
 import Entidades.Telemetria;
-import repositorio.TelemetriaRepositorio;
+import Repositorio.TelemetriaRepositorio;
 import java.time.LocalDateTime;
 import java.util.List;
 

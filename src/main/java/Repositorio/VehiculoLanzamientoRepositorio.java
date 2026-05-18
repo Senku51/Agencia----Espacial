@@ -1,4 +1,4 @@
-package repositorio;
+package Repositorio;
 
 import Entidades.VehiculoLanzamiento;
 import jakarta.persistence.EntityManager;

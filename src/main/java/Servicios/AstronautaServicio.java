@@ -6,7 +6,7 @@ package Servicios;
  * @version 2026/05/13
  */
 import Entidades.Astronauta;
-import repositorio.AstronautaRepositorio;
+import Repositorio.AstronautaRepositorio;
 import java.time.LocalDate;
 import java.util.List;
 

@@ -7,7 +7,7 @@ package Servicios;
  */
 import Entidades.Mision;
 import Entidades.Satelite;
-import repositorio.SateliteRepositorio;
+import Repositorio.SateliteRepositorio;
 import java.time.LocalDate;
 import java.util.List;
 

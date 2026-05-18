@@ -1,4 +1,4 @@
-package repositorio;
+package Repositorio;
 
 /**
  * @author Manuel Jesus Jiménez Pérez

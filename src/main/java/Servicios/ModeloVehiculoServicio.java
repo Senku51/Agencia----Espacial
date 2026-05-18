@@ -1,7 +1,7 @@
 package Servicios;
 
 import Entidades.ModeloVehiculo;
-import repositorio.ModeloVehiculoRepositorio;
+import Repositorio.ModeloVehiculoRepositorio;
 import java.util.List;
 
 /**
