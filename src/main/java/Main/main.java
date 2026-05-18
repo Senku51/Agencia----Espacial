@@ -33,13 +33,13 @@ public class main {
         EntityManager em = emf.createEntityManager();
         sc = new Scanner(System.in);
 
-        repositorio.AstronautaRepositorio astronautaRepo = new repositorio.AstronautaRepositorio(em);
-        repositorio.EstacionSeguimientoRepositorio estacionRepo   = new repositorio.EstacionSeguimientoRepositorio(em);
-        repositorio.MisionRepositorio misionRepo     = new repositorio.MisionRepositorio(em);
-        repositorio.ModeloVehiculoRepositorio modeloRepo     = new repositorio.ModeloVehiculoRepositorio(em);
-        repositorio.SateliteRepositorio sateliteRepo   = new repositorio.SateliteRepositorio(em);
-        repositorio.TelemetriaRepositorio telemetriaRepo = new repositorio.TelemetriaRepositorio(em);
-        repositorio.VehiculoLanzamientoRepositorio vehiculoRepo   = new repositorio.VehiculoLanzamientoRepositorio(em);
+        Repositorio.AstronautaRepositorio astronautaRepo = new Repositorio.AstronautaRepositorio(em);
+        Repositorio.EstacionSeguimientoRepositorio estacionRepo   = new Repositorio.EstacionSeguimientoRepositorio(em);
+        Repositorio.MisionRepositorio misionRepo     = new Repositorio.MisionRepositorio(em);
+        Repositorio.ModeloVehiculoRepositorio modeloRepo     = new Repositorio.ModeloVehiculoRepositorio(em);
+        Repositorio.SateliteRepositorio sateliteRepo   = new Repositorio.SateliteRepositorio(em);
+        Repositorio.TelemetriaRepositorio telemetriaRepo = new Repositorio.TelemetriaRepositorio(em);
+        Repositorio.VehiculoLanzamientoRepositorio vehiculoRepo   = new Repositorio.VehiculoLanzamientoRepositorio(em);
 
         astronautaServicio  = new Servicios.AstronautaServicio(astronautaRepo);
         estacionServicio    = new Servicios.EstacionSeguimientoServicio(estacionRepo);

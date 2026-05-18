@@ -7,7 +7,7 @@ package Servicios;
  */
 import Entidades.EstacionSeguimiento;
 import Entidades.Ubicacion;
-import repositorio.EstacionSeguimientoRepositorio;
+import Repositorio.EstacionSeguimientoRepositorio;
 import java.util.List;
 
 public class EstacionSeguimientoServicio {
