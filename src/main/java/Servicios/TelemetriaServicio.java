@@ -1,4 +1,4 @@
-package servicios;
+package Servicios;
 
 /**
  * @author Manuel Jesus Jiménez Pérez

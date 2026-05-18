@@ -16,13 +16,13 @@ public class main {
     private static final DateTimeFormatter FMT_FECHA_HORA = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm");
     private static Scanner sc;
 
-    private static servicios.AstronautaServicio astronautaServicio;
-    private static servicios.EstacionSeguimientoServicio estacionServicio;
-    private static servicios.MisionServicio misionServicio;
-    private static servicios.ModeloVehiculoServicio modeloServicio;
-    private static servicios.SateliteServicio sateliteServicio;
-    private static servicios.TelemetriaServicio telemetriaServicio;
-    private static servicios.VehiculoLanzamientoServicio vehiculoServicio;
+    private static Servicios.AstronautaServicio astronautaServicio;
+    private static Servicios.EstacionSeguimientoServicio estacionServicio;
+    private static Servicios.MisionServicio misionServicio;
+    private static Servicios.ModeloVehiculoServicio modeloServicio;
+    private static Servicios.SateliteServicio sateliteServicio;
+    private static Servicios.TelemetriaServicio telemetriaServicio;
+    private static Servicios.VehiculoLanzamientoServicio vehiculoServicio;
 
     // =========================================================================
     // MAIN
@@ -41,13 +41,13 @@ public class main {
         repositorio.TelemetriaRepositorio telemetriaRepo = new repositorio.TelemetriaRepositorio(em);
         repositorio.VehiculoLanzamientoRepositorio vehiculoRepo   = new repositorio.VehiculoLanzamientoRepositorio(em);
 
-        astronautaServicio  = new servicios.AstronautaServicio(astronautaRepo);
-        estacionServicio    = new servicios.EstacionSeguimientoServicio(estacionRepo);
-        misionServicio      = new servicios.MisionServicio(misionRepo, vehiculoRepo);
-        modeloServicio      = new servicios.ModeloVehiculoServicio(modeloRepo);
-        sateliteServicio    = new servicios.SateliteServicio(sateliteRepo);
-        telemetriaServicio  = new servicios.TelemetriaServicio(telemetriaRepo);
-        vehiculoServicio    = new servicios.VehiculoLanzamientoServicio(vehiculoRepo, modeloRepo);
+        astronautaServicio  = new Servicios.AstronautaServicio(astronautaRepo);
+        estacionServicio    = new Servicios.EstacionSeguimientoServicio(estacionRepo);
+        misionServicio      = new Servicios.MisionServicio(misionRepo, vehiculoRepo);
+        modeloServicio      = new Servicios.ModeloVehiculoServicio(modeloRepo);
+        sateliteServicio    = new Servicios.SateliteServicio(sateliteRepo);
+        telemetriaServicio  = new Servicios.TelemetriaServicio(telemetriaRepo);
+        vehiculoServicio    = new Servicios.VehiculoLanzamientoServicio(vehiculoRepo, modeloRepo);
 
         menuPrincipal();
 
